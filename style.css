@@ -1,0 +1,146 @@
+ *{
+     margin:0;
+     padding:0;
+ }
+ body{
+     align-items: center;
+     background-color: #f0b105;
+    
+ }
+ 
+ .Quiz input,
+ .Quiz button{
+     display:block;
+     width:100%;
+ }
+.Quiz input{
+
+    margin-bottom: 15px;
+    font-size: 25px;
+    color:rgb(41, 109, 2);
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+     border: none;
+    border-bottom: 3px solid white;
+    outline:none;
+     
+}
+.Quiz button{
+    padding:15px 30px;
+    border-radius: 20px;
+    background-color: #0553f0;
+    outline:none;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.Quiz button a{
+    font-size: 25px;
+    color:#f0058e;
+    font-weight:bold;
+    outline:none;
+    width: 100%;
+}
+ .Question_holder{
+     display:flex; 
+     justify-content: center;
+    align-items: center; 
+     width: 100vw;
+    height: 100vh; 
+  
+}
+.Quiz{
+    width: 400px;
+    display: inline-block;
+}
+/* .Questions.html */
+
+.Questions {
+   width:700px;
+    min-height: 400px;
+    margin:50px auto;
+    background-color: 	#00ffff;
+    box-shadow: 5px 10px 5px black;
+   border:2px solid red;
+} 
+.Questions h1{
+    color:red;
+    border-bottom:4px solid darkgreen;
+    padding-left: 10px;
+}
+
+
+.option {
+   
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #ff9933;
+    padding:15px 10px 10px 20px;
+    margin-right:30px; 
+    margin-bottom: 25px;
+    border-radius: 50px;
+    cursor: pointer;  
+
+}
+
+.btn{
+    text-align:center;
+    border:2px solid red;
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+    background-color:  #ff8000;
+    float: right;
+    margin-right:20px;
+    box-shadow: 2px 3px 5px #331a00;
+}
+#Question-text{
+   padding:15px 30px; 
+   color:	 #0000ff;
+
+
+}
+/* result div */
+
+#result-div{
+    
+
+    display: none;    
+      
+}
+.r{
+    color:rgb(144,20,30);
+}
+#result-div .r h2{
+    color:rgb(144,20,30);
+}
+ .result-text h2{
+    margin-top:25px;
+    color:#0000ff;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:2px 3px 3px #00ffff;
+
+ }
+    
+   @media only screen and(max-width:300px){
+    
+   .Question_holder{
+        display:block;
+             
+   }
+   .Questions{
+    width: 50%;
+}
+.btn{
+    float:none;
+} 
+ 
+       
+   }
+ 
+    
+   
+    
+  
